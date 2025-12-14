@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, MapPin, Send } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, Send, Phone } from "lucide-react";
 import { useState } from "react";
 
 const contactMethods = [
@@ -13,17 +13,31 @@ const contactMethods = [
     color: "from-blue-500 to-cyan-500",
   },
   {
+    icon: Phone,
+    label: "Phone",
+    value: "+92 300 0466011",
+    href: "tel:+923000466011",
+    color: "from-green-500 to-emerald-500",
+  },
+  {
+    icon: Phone,
+    label: "Phone",
+    value: "+92 734 5353058",
+    href: "tel:+927345353058",
+    color: "from-teal-500 to-cyan-500",
+  },
+  {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/hammadtufail",
-    href: "https://linkedin.com",
+    value: "linkedin.com/in/hammad-tufail",
+    href: "https://www.linkedin.com/in/hammad-tufail-85643a251/",
     color: "from-blue-600 to-blue-700",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/hammadtufail",
-    href: "https://github.com",
+    value: "github.com/hammadjhujh9",
+    href: "https://github.com/hammadjhujh9",
     color: "from-gray-700 to-gray-900",
   },
   {
@@ -31,7 +45,7 @@ const contactMethods = [
     label: "Location",
     value: "Pakistan",
     href: "#",
-    color: "from-green-500 to-emerald-500",
+    color: "from-purple-500 to-pink-500",
   },
 ];
 

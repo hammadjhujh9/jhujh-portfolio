@@ -5,8 +5,8 @@ import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/hammadjhujh9", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/hammad-tufail-85643a251/", label: "LinkedIn" },
   { icon: Mail, href: "mailto:hammad@example.com", label: "Email" },
 ];
 
